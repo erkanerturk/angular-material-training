@@ -11,6 +11,7 @@ import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
 import { IconComponent } from './icon/icon.component';
 import { BadgeComponent } from './badge/badge.component';
 import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.co
     IconComponent,
     BadgeComponent,
     ProgressSpinnerComponent,
+    ToolbarComponent,
   ],
   imports: [
     BrowserModule,
