@@ -25,6 +25,7 @@ import { InputComponent } from './input/input.component';
 import { SelectComponent } from './select/select.component';
 import { AutoCompleteComponent } from './auto-complete/auto-complete.component';
 import { CheckboxComponent } from './checkbox/checkbox.component';
+import { RadioButtonComponent } from './radio-button/radio-button.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { CheckboxComponent } from './checkbox/checkbox.component';
     SelectComponent,
     AutoCompleteComponent,
     CheckboxComponent,
+    RadioButtonComponent,
   ],
   imports: [
     BrowserModule,
