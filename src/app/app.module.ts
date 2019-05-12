@@ -17,6 +17,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { MenuComponent } from './menu/menu.component';
 import { ListComponent } from './list/list.component';
 import { GridListComponent } from './grid-list/grid-list.component';
+import { ExpansionPanelComponent } from './expansion-panel/expansion-panel.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { GridListComponent } from './grid-list/grid-list.component';
     MenuComponent,
     ListComponent,
     GridListComponent,
+    ExpansionPanelComponent,
   ],
   imports: [
     BrowserModule,
