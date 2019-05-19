@@ -30,6 +30,7 @@ import { DatePickerComponent } from './date-picker/date-picker.component';
 import { SnackbarComponent } from './snackbar/snackbar.component';
 import { DialogComponent } from './dialog/dialog.component';
 import { DialogExampleComponent } from './dialog/dialog-example/dialog-example.component';
+import { DataTableComponent } from './data-table/data-table.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { DialogExampleComponent } from './dialog/dialog-example/dialog-example.c
     SnackbarComponent,
     DialogComponent,
     DialogExampleComponent,
+    DataTableComponent,
   ],
   imports: [
     BrowserModule,
