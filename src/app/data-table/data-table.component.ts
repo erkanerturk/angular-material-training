@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { MatTableDataSource } from '@angular/material';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { MatTableDataSource, MatSort } from '@angular/material';
 
 export interface PeriodicElement {
   name: string;
@@ -31,9 +31,12 @@ export class DataTableComponent implements OnInit {
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   dataSource = new MatTableDataSource(ELEMENT_DATA)
 
+  @ViewChild(MatSort) sort: MatSort
+
   constructor() { }
 
   ngOnInit() {
+    this.dataSource.sort = this.sort
   }
 
   applyFilter(filterValue: string) {
